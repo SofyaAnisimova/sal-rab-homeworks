@@ -9,11 +9,11 @@ function renderCartItem(item) {
    let sum = product.count * product.price; 
  
    itemCountText += product.count; 
-   itemCountText += 'x'; 
+   itemCountText += ' × '; 
    itemCountText += product.price; 
-   itemCountText += '₽='; 
+   itemCountText += ' ₽= '; 
    itemCountText += sum; 
-   itemCountText += '₽'; 
+   itemCountText += ' ₽ '; 
     
     // Задание №3.1. Формирование строки корзины
 
