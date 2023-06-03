@@ -13,7 +13,7 @@ function renderCartItem(item) {
    itemCountText += product.price; 
    itemCountText += ' ₽ = '; 
    itemCountText += sum; 
-   itemCountText += ' ₽ '; 
+   itemCountText += ' ₽'; 
     
     // Задание №3.1. Формирование строки корзины
 
