@@ -11,7 +11,7 @@ function renderCartItem(item) {
    itemCountText += product.count; 
    itemCountText += ' × '; 
    itemCountText += product.price; 
-   itemCountText += ' ₽= '; 
+   itemCountText += ' ₽ = '; 
    itemCountText += sum; 
    itemCountText += ' ₽ '; 
     
